@@ -1,0 +1,14 @@
+{
+    "steps": [
+      {
+        "id": 1,
+        "label": "Escolha a massa",
+        "options": [
+          { "id": 1, "name": "Tradicional", "image": "https://example.com/tradicional.jpg", "title": "Massa Tradicional", "description": "Uma massa clássica e saborosa." },
+          { "id": 2, "name": "Napolitana", "image": "https://example.com/napolitana.jpg", "title": "Massa Napolitana", "description": "Uma massa fina e crocante, no estilo napolitano." },
+          { "id": 3, "name": "Toscana", "image": "https://example.com/toscana.jpg", "title": "Massa Toscana", "description": "Uma massa rústica e cheia de sabor." }
+        ]
+      }
+    ]
+  }
+  

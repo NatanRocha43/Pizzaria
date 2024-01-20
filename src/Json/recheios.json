@@ -1,0 +1,14 @@
+{
+    "steps": [
+      {
+        "id": 3,
+        "label": "Escolha o recheio",
+        "options": [
+          { "id": 1, "name": "Calabresa", "image": "https://example.com/calabresa.jpg", "title": "Calabresa", "description": "Saborosa calabresa em pedaços." },
+          { "id": 2, "name": "Portuguesa", "image": "https://example.com/portuguesa.jpg", "title": "Portuguesa", "description": "Recheio tradicional com presunto e ovos." },
+          { "id": 3, "name": "Muçarela", "image": "https://example.com/mucarela.jpg", "title": "Muçarela", "description": "A clássica pizza de muçarela derretida." }
+        ]
+      }
+    ]
+  }
+  

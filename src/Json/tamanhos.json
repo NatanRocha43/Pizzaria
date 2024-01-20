@@ -1,0 +1,14 @@
+{
+    "steps": [
+      {
+        "id": 2,
+        "label": "Escolha o tamanho",
+        "options": [
+          { "id": 1, "name": "Pequena", "image": "https://example.com/pequena.jpg", "title": "Pizza Pequena", "description": "Tamanho ideal para uma pessoa." },
+          { "id": 2, "name": "Média", "image": "https://example.com/media.jpg", "title": "Pizza Média", "description": "Perfeita para compartilhar com amigos." },
+          { "id": 3, "name": "Grande", "image": "https://example.com/grande.jpg", "title": "Pizza Grande", "description": "Uma pizza generosa para grandes apetites." }
+        ]
+      }
+    ]
+  }
+  
