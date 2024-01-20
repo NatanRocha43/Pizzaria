@@ -1,0 +1,19 @@
+
+{
+    "pizzas": [
+      {
+        "id": 1,
+        "name": "Pizza do Dia",
+        "points": 5,
+        "steps": [
+          { "id": 1, "label": "Escolha a massa", "options": ["Tradiciona", "Napolitana", "Toscana", "Siciliana"] },
+          { "id": 2, "label": "Escolha o tamanho", "options": ["Pequena", "Média", "Grande", "Família"] },
+          { "id": 3, "label": "Escolha o recheio", "options": ["Calabresa ", "Portuguesa", "Muçarela","Frango com catupiry"] }
+        ]
+      }
+    ]
+  }
+  
+
+
+  

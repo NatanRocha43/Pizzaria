@@ -1,4 +1,15 @@
-@import url('typeface-montserrat');
+@import 'typeface-chilanka';
+@import 'typeface-montserrat';
 
 
-$font-family: 'Montserrat', sans-serif;
+$font-chilanka: 'chilanka', sans-serif;
+$font-montserrat: 'Montserrat', sans-serif;
+
+$font-big: 32px;
+$font-medium: 24px;
+$font-small: 14px;
+
+$color-text-white: #fff;
+
+
+$background-white: #fff
