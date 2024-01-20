@@ -1,0 +1,21 @@
+<svg width="176" height="104" viewBox="0 0 176 104" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Frame 9" clip-path="url(#clip0_817_187)">
+<g id="Group 12">
+<path id="Ellipse 25" d="M175.453 87.8245C179.291 110.878 162.085 130.179 150.643 149.027C139.814 166.866 112.257 172.954 87.7263 175.649C65.2465 178.119 38.487 167.379 24.8096 149.027C11.5141 131.188 0 111.623 0 87.8245C0 64.0263 11.4126 43.4821 24.8096 26.6218C39.2027 8.50778 61.1343 -0.000106789 87.7263 0C112.405 9.91035e-05 132.471 12.7182 150.643 26.6218C167.502 39.5208 171.545 64.3501 175.453 87.8245Z" fill="url(#paint0_radial_817_187)"/>
+<circle id="Ellipse 26" cx="88" cy="87.9995" r="77" fill="url(#paint1_radial_817_187)"/>
+</g>
+</g>
+<defs>
+<radialGradient id="paint0_radial_817_187" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(87.7263 87.8242) rotate(90) scale(87.8245 87.7263)">
+<stop offset="0.885" stop-color="#E79C48"/>
+<stop offset="1" stop-color="#D07428"/>
+</radialGradient>
+<radialGradient id="paint1_radial_817_187" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(88 87.9995) rotate(90) scale(77)">
+<stop offset="0.885" stop-color="#E79C48"/>
+<stop offset="1" stop-color="#D07428"/>
+</radialGradient>
+<clipPath id="clip0_817_187">
+<rect width="176" height="104" fill="white"/>
+</clipPath>
+</defs>
+</svg>

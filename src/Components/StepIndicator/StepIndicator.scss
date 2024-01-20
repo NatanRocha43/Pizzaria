@@ -1,0 +1,30 @@
+@import '../../config.scss';
+
+.step-indicator {
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 300px; 
+  margin: 20px auto;
+}
+
+.step {
+  width: 64px;
+  height: 64px;
+  font-family: $font-montserrat;
+  background-color: $background-grey;
+  color: $color-text-white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: $font-medium;
+}
+
+.step.active {
+  background-color: $background-green;
+  color: $color-text-white;
+}
+  
