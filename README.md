@@ -30,6 +30,5 @@ Este é um projeto de aplicativo web de pizzaria construído com React. O aplica
 1. Clone este repositório.
 2. Instale as dependências usando `npm install`.
 3. Execute o aplicativo com `npm start`.
-4. O Json Server está configurado para rodar junto com o `npm start`
 
 
