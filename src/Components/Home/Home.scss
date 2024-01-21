@@ -1,60 +1,44 @@
+/* Home.scss */
+
 @import '../../config.scss';
 
 .home-background-container {
-  position: relative;
   background-image: url('../../assets/background.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   @media (max-width:768px) {
     background-image: url('../../assets/backMobile.jpg');
   }
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.1);
-}
-
 .home-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  height: 100vh;
-  margin-left: 20%;
-
-  @media (max-width:768px) {
-    align-items: center;
-    margin: 0 auto;
-  }
+  align-items: center;
 }
 
 .home-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  text-align: center;
 }
 
 .home-title {
   font-family: $font-chilanka;
-  text-align: center;
   color: #FFF;
   text-shadow: 4px 4px 8px #FF9F2E;
   font-size: 150px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+
   @media only screen and (min-width: 769px) and (max-width: 1024px) {
     font-size: 100px;
   }
-
 
   @media (max-width:768px) {
     font-size: $font-big;
@@ -67,7 +51,6 @@
   font-size: $font-medium;
   font-style: normal;
   line-height: normal;
-  text-align: center;
 
   @media (max-width:768px) {
     font-size: $font-small;
@@ -75,8 +58,6 @@
 }
 
 .home-button-container {
-  display: flex;
-  justify-content: center;
   margin-top: 40px;
 }
 

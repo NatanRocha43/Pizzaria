@@ -1,14 +1,11 @@
 {
-    "steps": [
-      {
-        "id": 1,
-        "label": "Escolha a massa",
-        "options": [
-          { "id": 1, "name": "Tradicional", "image": "https://example.com/tradicional.jpg", "title": "Massa Tradicional", "description": "Uma massa clássica e saborosa." },
-          { "id": 2, "name": "Napolitana", "image": "https://example.com/napolitana.jpg", "title": "Massa Napolitana", "description": "Uma massa fina e crocante, no estilo napolitano." },
-          { "id": 3, "name": "Toscana", "image": "https://example.com/toscana.jpg", "title": "Massa Toscana", "description": "Uma massa rústica e cheia de sabor." }
-        ]
-      }
-    ]
-  }
+  "steps": [
+    { "id": 1, "name": "Massa Fina", "image": "https://i.im.ge/2024/01/21/Yy6xrS.massa-fina-1.png", "title": "Massa Fina", "description": "Esta é uma massa fina e crocante!" },
+    { "id": 2, "name": "Massa Grossa", "image": "https://i.im.ge/2024/01/21/YNfiu4.massa-grossa.png", "title": "Massa Grossa", "description": "Esta massa é mais espessa e fofinha!" },
+    { "id": 3, "name": "Massa Integral", "image": "https://i.im.ge/2024/01/21/YNkiyJ.massa-integral.png", "title": "Massa Integral", "description": "Esta massa é feita com farinha integral!" }
+  ]
+}
   
+
+
+

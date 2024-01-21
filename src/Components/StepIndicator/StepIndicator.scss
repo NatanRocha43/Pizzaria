@@ -1,13 +1,14 @@
+/* StepIndicator.scss */
+
 @import '../../config.scss';
 
 .step-indicator {
-  position: absolute;
-  left: 0;
-  right: 0;
   display: flex;
-  justify-content: space-between;
-  width: 300px; 
-  margin: 20px auto;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 10px auto;
+  z-index: 999;
 }
 
 .step {
@@ -21,10 +22,10 @@
   align-items: center;
   justify-content: center;
   font-size: $font-medium;
+  margin: 0 5px; /* Adicionado margem entre as etapas */
 }
 
 .step.active {
   background-color: $background-green;
   color: $color-text-white;
 }
-  

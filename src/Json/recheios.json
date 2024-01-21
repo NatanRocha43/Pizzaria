@@ -1,14 +1,7 @@
 {
-    "steps": [
-      {
-        "id": 3,
-        "label": "Escolha o recheio",
-        "options": [
-          { "id": 1, "name": "Calabresa", "image": "https://example.com/calabresa.jpg", "title": "Calabresa", "description": "Saborosa calabresa em pedaços." },
-          { "id": 2, "name": "Portuguesa", "image": "https://example.com/portuguesa.jpg", "title": "Portuguesa", "description": "Recheio tradicional com presunto e ovos." },
-          { "id": 3, "name": "Muçarela", "image": "https://example.com/mucarela.jpg", "title": "Muçarela", "description": "A clássica pizza de muçarela derretida." }
-        ]
-      }
-    ]
-  }
-  
+  "steps": [
+      { "id": 1, "name": "Calabresa", "image": "https://i.im.ge/2024/01/21/Yy6eNf.Group-27.png", "title": "Calabresa", "description": "Saborosa calabresa em pedaços." },
+      { "id": 2, "name": "Marguerita", "image": "https://i.im.ge/2024/01/21/YyNTur.marguerita.png", "title": "Marguerita", "description": "Recheio tradicional com queijo." },
+      { "id": 3, "name": "Frango com bacon", "image": "https://i.im.ge/2024/01/21/YyNX80.Frango-com-bacon.png", "title": "Frango com bacon", "description": "A clássica pizza de frango." }
+  ]
+}
