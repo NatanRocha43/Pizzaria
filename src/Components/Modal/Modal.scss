@@ -26,7 +26,38 @@
   justify-content: center;
   align-items: center;
 
+  @media (max-width:1024px) {
+    overflow: auto;
+
+  }
 }
+
+
+.carrossel-mobile{
+  @media (max-width:1024px) {
+    overflow: auto;
+    position: relative;
+    bottom: 80px;
+  }
+}
+
+::-webkit-scrollbar {
+  margin-top: 5px;
+  width: 3px; /* Largura da barra de rolagem */
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Cor da parte deslizante da barra de rolagem */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Cor da parte fixa da barra de rolagem */
+}
+
+
+
+
 .tituloCard{
   color: $color-text-white;
   display: flex;
@@ -36,6 +67,10 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+
+  @media (max-width:1024px) {
+    font-size: 0;
+  }
 }
 .close-button {
   position: absolute;
@@ -45,6 +80,11 @@
   font-family: $font-montserrat;
   font-size: $font-big;
   cursor: pointer;
+  @media (max-width:1024px) {
+    font-size: $font-medium;
+    top: 5px;
+    right: 10px;
+  }
 }
 .back-button{
   display: flex;
@@ -56,6 +96,11 @@
   font-family: $font-montserrat;
   font-size: $font-big;
   cursor: pointer;
+  @media (max-width:1024px) {
+    font-size: $font-medium;
+    bottom: 10px;
+    left: 15px;
+  }
 }
 .modal-container{
   width: 100%;

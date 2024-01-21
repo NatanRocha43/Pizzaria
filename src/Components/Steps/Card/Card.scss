@@ -1,0 +1,102 @@
+@import '../../../config.scss';
+
+.titulo{
+  color: $color-text-dark;
+  font-family: $font-montserrat;
+  font-size: $font-medium;
+  font-style: normal;
+  line-height: normal;
+  text-align: center;
+  @media (max-width:768px) {
+    font-size: $font-medium;
+  }
+}
+.titulo-modal{
+  color: $color-text-dark;
+
+  text-align: center;
+  font-family: $font-montserrat;
+  font-size: $font-medium;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 8px;
+}
+
+.sub-titulo{
+  color: $color-text-dark;
+  text-align: center;
+  font-family: $font-montserrat;
+  font-size: $font-small;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 4px;
+  width: 250px;
+  height: 35px;
+  @media (max-width:768px) {
+    font-size:12px;
+  }
+
+}
+
+.button{
+  font-family: $font-montserrat;
+  background-color: $background-orange;
+  font-size: $font-small;
+  color: $color-text-white;
+  border: none;
+  padding: 8px 24px;
+  border-radius: 40px;
+  margin: 8px 0 24px 0;
+  
+  cursor: pointer;
+
+  &:focus-visible {
+    outline: none;
+  }
+  &:active {
+    background: darken($background-orange, 10%);
+    transform: scale(0.95);
+  }
+  &:hover{
+    background: darken($background-orange, 10%);
+  }
+}
+.card{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 20px;
+  background-color: white;
+  border-radius: 15px;
+
+  gap: 20px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
+  @media (max-width:425px) {
+    width: 200px;
+    height: 250px;
+  }
+}
+.divStep{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 50px;
+  @media (max-width:1024px) {
+    margin-bottom: 30px;
+  }
+}
+.img {
+  width: 200px;
+  height: 110px;
+  @media (max-width:425px) {
+    width: 150px;
+    height: 80px;
+  }
+}
+
+.recheio{
+  width: 120px;
+}
