@@ -7,10 +7,7 @@ const StepIndicator = ({ steps, currentStep, completedSteps }) => {
   return (
     <div className="step-indicator">
       {steps.map((step, index) => (
-        <div
-          key={index}
-          className={`step ${completedSteps.includes(index) ? 'completed' : ''} ${index === currentStep ? 'active' : ''}`}
-        >
+        <div key={index} className={`step ${completedSteps.includes(index) ? 'completed' : ''} ${index === currentStep ? 'active' : ''}`}>
           {step}
         </div>
       ))}
