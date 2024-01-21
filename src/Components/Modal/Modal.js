@@ -53,7 +53,7 @@ const Modal = ({ isOpen, onClose }) => {
     <>
       {isOpen && (
         <>
-          <animated.div className="modal-overlay" style={{ opacity: modalAnimation.opacity }} onClick={onClose}></animated.div>
+          <animated.div className="modal-overlay" style={{ opacity: modalAnimation.opacity }} onClick={resetAll} />
           <animated.div className="modal" style={modalAnimation}>
             <p className="close-button" onClick={() => { resetAll() }}><SlClose /></p>
             {currentStep > 0 && currentStep < steps.length - 1 && <p className="back-button" onClick={handlePreviousStep}><IoArrowBack />Voltar</p>}
