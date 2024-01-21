@@ -1,26 +1,35 @@
+// tamanho.jsx
 import React, { useState, useEffect } from 'react';
-import MassaJson from '../../../Json/recheios.json';
-import '../Index.scss';
+import { fetchRecheios } from '../../../API/apiService'; 
 
-const Recheios = ({ handleNextStep }) => {
-  const [steps, setSteps] = useState([]);
+const Recheio = ({ handleNextStep }) => {
+  const [recheio, setrecheio] = useState([]);
 
   useEffect(() => {
-    setSteps(MassaJson.steps);
+    const fetchData = async () => {
+      try {
+        const recheioData = await fetchRecheios();
+        setrecheio(recheioData);
+      } catch (error) {
+        console.error('Erro ao buscar recheio:', error);
+      }
+    };
+
+    fetchData();
   }, []);
 
   return (
     <div className='divStep'>
-        {steps.map((step) => (
-            <div key={step.id} className="card">
-              <img className="img recheio" src={step.image} alt={step.title} />
-              <h2 className="titulo">{step.title}</h2>
-              <p className="sub-titulo">{step.description}</p>
-              <button className='button' onClick={() => handleNextStep(step)}>Selecionar</button>
-            </div>
-        ))}
+      {recheio.map((tamanho) => (
+        <div key={tamanho.id} className="card">
+          <img className="img" src={tamanho.image} alt={tamanho.title} />
+          <h2 className="titulo">{tamanho.title}</h2>
+          <p className="sub-titulo">{tamanho.description}</p>
+          <button className='button' onClick={() => handleNextStep(tamanho)}>Selecionar</button>
+        </div>
+      ))}
     </div>
   );
 };
 
-export default Recheios;
+export default Recheio;
